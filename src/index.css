@@ -91,6 +91,10 @@
         }
       }
 
+      .collection{
+        object-position: 0% 80%;
+      }
+
 
   
 }
