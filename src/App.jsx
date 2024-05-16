@@ -1,9 +1,10 @@
-import React from 'react'
 import Nav from './components/nav';
 import LandingPage from './components/landingPage';
 
 
+
 function App() {
+  
 
   return (
     <>

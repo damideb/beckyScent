@@ -28,6 +28,13 @@
         animation-fill-mode: forwards;
     }
 
+    .transit>img{
+        object-position: 0% 27%;
+    }
+    .transit>img:first-child{
+        object-position: 0% 40%;
+    }
+
     @keyframes slideout {
 
         0%{
@@ -95,6 +102,79 @@
         object-position: 0% 80%;
       }
 
+      .CEO{
+        object-position: 8% 20%;
+      }
+
+      .hover-effect{
+        position: relative;
+        transform: all 1s linear;
+        cursor: pointer;
+        z-index: 1;
+      }
+      .hover-effect:hover{
+        color:rgb(50,1,47);
+      }
+
+      .hover-effect::before{
+        content: "";
+        position: absolute;
+        left:0;
+        top:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(226,223,208);
+        z-index: -1;
+        transition: transform 1s ease;
+        transform-origin: 0 0;
+        transform: scaleX(0);
+
+      }
+
+      .hover-effect:hover::before{
+        transform: scaleX(1);
+      }
+
+      .custom-shape-divider-top-1715862304 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1715862304 svg {
+        position: relative;
+        display: block;
+        width: calc(135% + 1.3px);
+        height: 109px;
+    }
+    
+    .custom-shape-divider-top-1715862304 .shape-fill {
+        fill: #FFFFFF;
+    }
+    
+   
+    .custom-shape-divider-top-1715891121 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1715891121 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 346px;
+    }
+    
+    .custom-shape-divider-top-1715891121 .shape-fill {
+        fill: #FFFFFF;
+    }
 
   
 }
