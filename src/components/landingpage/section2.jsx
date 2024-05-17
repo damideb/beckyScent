@@ -4,6 +4,12 @@ import Boxes from './boxes';
 import Collections from './collections';
 import { PiWhatsappLogo } from "react-icons/pi";
 import { useLocation} from 'react-router-dom';
+import img1 from '../../assets/perfumes/versace.jpg'
+import img2 from '../../assets/perfumes/chanel.jpg'
+import img3 from '../../assets/perfumes/victoria.jpg'
+import img4 from  '../../assets/perfumes/chanel5.jpg'
+import img5 from '../../assets/perfumes/zara.jpg'
+import img6 from '../../assets/perfumes/diffuser.jpg'
 
 
 export default function Section2() {
@@ -14,13 +20,7 @@ export default function Section2() {
     const [forward, setForward] = useState(true)
     
     const slideShow = [
-         '/src/assets/perfumes/versace.jpg',
-             '/src/assets/perfumes/chanel.jpg',
-             '/src/assets/perfumes/victoria.jpg',
-        '/src/assets/perfumes/chanel5.jpg',
-         '/src/assets/perfumes/zara.jpg',
-     '/src/assets/perfumes/diffuser.jpg',
-   
+         img1,img2,img3,img4,img5,img6
     ]   
   
 

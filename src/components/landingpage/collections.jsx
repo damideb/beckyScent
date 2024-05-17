@@ -1,15 +1,25 @@
 import {useEffect} from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import collection1 from '../../assets/collections/andaleeb.jpg'
+import collection2 from '../../assets/collections/hayati.jpg'
+import collection3 from '../../assets/collections/kalimat.jpg'
+import collection4 from '../../assets/collections/khamra.jpg'
+import collection5 from '../../assets/collections/mosuf.jpg'
+ import collection6 from '../../assets/collections/mystical.jpg'
+ import collection7 from '../../assets/collections/ramz.jpg'
+import collection8 from '../../assets/collections/oudlayal.jpg'
+import collection9 from '../../assets/collections/qaaed.jpg'
+import collection10 from '../../assets/collections/scandal.jpg'
 
 export default function Collections() {
 
     const collections =[
-        {name: 'Andaleeb', src:'/src/assets/collections/andaleeb.jpg'}, {name: 'Hayati', src: '/src/assets/collections/hayati.jpg'}, 
-        {name:'kalimat', src:'/src/assets/collections/kalimat.jpg'}, {name:'Khamra', src:'/src/assets/collections/khamra.jpg'},
-        {name:'Mosuf', src:'/src/assets/collections/mosuf.jpg'},{name:'Mystical', src:'/src/assets/collections/mystical.jpg'},
-        {name: 'Ramz', src:'/src/assets/collections/ramz.jpg'},{name:'Oudlayal',src:'/src/assets/collections/oudlayal.jpg'},
-        {name:'Qaaed', src:'/src/assets/collections/qaaed.jpg'}, {name:'Scandal', src:'/src/assets/collections/scandal.jpg'}
+        {name: 'Andaleeb', src:collection1}, {name: 'Hayati', src: collection2}, 
+        {name:'kalimat', src:collection3}, {name:'Khamra', src:collection4},
+        {name:'Mosuf', src:collection5},{name:'Mystical', src:collection6},
+        {name: 'Ramz', src:collection7},{name:'Oudlayal',src:collection8},
+        {name:'Qaaed', src:collection9}, {name:'Scandal', src:collection10}
       ]
 
       useEffect(()=>{
