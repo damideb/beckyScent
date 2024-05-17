@@ -1,5 +1,5 @@
 import {useEffect} from 'react'
-import AOS from 'aos';
+import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Collections() {
@@ -13,8 +13,9 @@ export default function Collections() {
       ]
 
       useEffect(()=>{
-        AOS.init({
-          duration: 1000, 
+        Aos.init({
+          duration: 2000, 
+          offset:-400,
         
           delay:0
 
@@ -26,17 +27,17 @@ export default function Collections() {
         <h2 className=' text-center text-[1.5rem] text-100 font-medium' data-aos='fade-down'>Explore our scent collections</h2>
         <div className=' flex w-full sm:w-[85%] sm:mx-auto gap-2 sm:gap-2 my-5 '>
           {collections.slice(0,5).map((item,i)=>{
-            return <div key={i} className=' basis-[25%] h-[7em] sm:h-[8em] rounded bg-light p-2 sm:p-4 last:hidden sm:last:block' data-aos='slide-right'> 
+            return <div key={i} className=' basis-[25%] h-[6.5em] sm:h-[8em] rounded bg-light p-2 sm:p-4 last:hidden sm:last:block' data-aos='slide-right'> 
                       <img  src={item.src} alt='collection-photos' className=' collection w-[90%] sm:w-[50%] h-[60%] object-cover sm:mx-auto'/> 
-                      <h2 className='text-center py-5 text-100 text-[0.9rem] font-semibold'>{item.name}</h2>
+                      <h2 className='text-center py-5 text-100 text-[0.8rem] font-medium'>{item.name}</h2>
                      </div>
           })}
         </div>
         <div className=' flex w-full sm:w-[85%] sm:mx-auto gap-2 sm:gap-3 my-5'>
           {collections.slice(5,10).map((item,i)=>{
-            return <div key={i} className=' basis-[25%] h-[7em] sm:h-[8em] rounded bg-light p-2 sm:p-4 last:hidden sm:last:block' data-aos='slide-left'> 
+            return <div key={i} className=' basis-[25%] h-[6.5em] sm:h-[8em] rounded bg-light p-2 sm:p-4 last:hidden sm:last:block' data-aos='slide-left'> 
                       <img  src={item.src} alt='collection-photos' className=' collection w-[90%] sm:w-[50%] h-[60%] object-cover sm:mx-auto'/> 
-                      <h2 className='text-center py-5 text-100 text-[0.9rem] font-semibold'>{item.name}</h2>
+                      <h2 className='text-center py-5 text-100 text-[0.8rem] font-medium'>{item.name}</h2>
                     </div>
           })}
         </div>

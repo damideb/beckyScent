@@ -9,6 +9,7 @@
         animation-timing-function:linear;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
+        transition: all 1000ms ease;
     }
     #imgtest{
         animation-name: slidein;
@@ -38,22 +39,22 @@
     @keyframes slideout {
 
         0%{
-            width: 100%;
+            transform: translateX(0%);
             opacity: 0.5;
         }
         25%{
-            width:75%
+            transform: translateX(-25%);
         }
         50%{
-            width: 50%;
+            transform: translateX(-50%);
             opacity: 0.2;
         }
         
         75%{
-            width: 25%;
+            transform: translateX(-75%);
         }
         100%{
-            width:0%;
+            transform: translateX(-100%);
             opacity: 0;
 
         }
@@ -63,7 +64,7 @@
 
         0%{
             width: 0%;
-            opacity: 0.3;
+            opacity: 0;
  
         }
         25%{
@@ -174,6 +175,14 @@
     
     .custom-shape-divider-top-1715891121 .shape-fill {
         fill: #FFFFFF;
+       
+    }
+
+    @media only screen and  (max-width:485px) {
+        .custom-shape-divider-top-1715891121 .shape-fill {
+            fill: none;
+           
+        }
     }
 
   
