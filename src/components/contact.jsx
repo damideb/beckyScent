@@ -1,3 +1,4 @@
+
 import { FaInstagram } from "react-icons/fa";
 import { PiTiktokLogo } from "react-icons/pi";
 import { MdOutlineMarkEmailUnread, MdOutlineLocalPhone } from "react-icons/md";
@@ -5,7 +6,7 @@ import { MdOutlineMarkEmailUnread, MdOutlineLocalPhone } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <div className=' mt-10 bg-100 relative pt-20 -z-20' id='contact'>
+    <div className=' mt-10 bg-100 relative pt-20 ' id='contact'>
     <h2 className=' text-center text:text-[1.2rem] sm:text-[1.5rem] font-semibold text-light pt-24'>Contact Us to shop our collections</h2>
     <div className='p-3 w-[95%] sm:w-[60%] mx-auto text-light'>
         <h4 className='hover-effect p-2 my-5 border border-light w-full sm:w-[50%] mx-auto text-[0.9rem] sm:text-[1.1rem] font-medium'>  

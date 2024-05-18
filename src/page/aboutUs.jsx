@@ -24,7 +24,7 @@ export default function AboutUs() {
           <div className='flex sm:flex-row-reverse flex-col w-[90%] mx-auto sm:mx-1 sm:w-[80%] sm:my-10'>
             <img src={CEO} alt='CEO-photo' className=' CEO w-[90%] h-[15em] sm:w-[45%] sm:h-[30em] object-cover px-5' data-aos='slide-right'/>
             
-            <div className='px-6 py-7  w-[95%] sm:w-[55%] rounded-lg h-[35em] bg-light shadow-xl relative -right-1 -top-12 sm:-right-28 sm:-top-10' data-aos='slide-left'> 
+            <div className='px-6 py-7  w-[95%] sm:w-[55%] rounded-lg h-[37em] sm:h-[35em] bg-light shadow-xl relative -right-1 -top-12 sm:-right-28 sm:-top-10' data-aos='slide-left'> 
             <p className=' py-2 sm:py-4 leading-6 text-[0.7rem] sm:text-[0.9rem]'><b>Rebecca Adebowale</b> is an entrepreneur with deep rooted appreciation for artisitry scent, fashion and beauty</p>
             
             <p className=' sm:py-4 leading-6 text-[0.7rem] sm:text-[0.9rem]'>As the CEO of Beckyscent & Style, I bring a deep passion for crafting unforgettable experiences through fragrances and fashion.

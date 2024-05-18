@@ -37,7 +37,7 @@ export default function Collections() {
         <h2 className=' text-center text-[1.5rem] text-100 font-medium' data-aos='fade-down'>Explore our scent collections</h2>
         <div className=' flex w-full sm:w-[85%] sm:mx-auto gap-2 sm:gap-2 my-5 '>
           {collections.slice(0,5).map((item,i)=>{
-            return <div key={i} className=' basis-[25%] h-[6.5em] sm:h-[8em] rounded bg-light p-2 sm:p-4 last:hidden sm:last:block' data-aos='slide-right'> 
+            return <div key={i} className=' basis-[25%] h-[6.5em] sm:h-[8em] rounded bg-light p-2 sm:p-4 last:hidden sm:last:block -z-50' data-aos='slide-right'> 
                       <img  src={item.src} alt='collection-photos' className=' collection w-[90%] sm:w-[50%] h-[60%] object-cover sm:mx-auto'/> 
                       <h2 className='text-center py-5 text-100 text-[0.8rem] font-medium'>{item.name}</h2>
                      </div>
@@ -45,8 +45,8 @@ export default function Collections() {
         </div>
         <div className=' flex w-full sm:w-[85%] sm:mx-auto gap-2 sm:gap-3 my-5'>
           {collections.slice(5,10).map((item,i)=>{
-            return <div key={i} className=' basis-[25%] h-[6.5em] sm:h-[8em] rounded bg-light p-2 sm:p-4 last:hidden sm:last:block' data-aos='slide-left'> 
-                      <img  src={item.src} alt='collection-photos' className=' collection w-[90%] sm:w-[50%] h-[60%] object-cover sm:mx-auto'/> 
+            return <div key={i} className=' basis-[25%] h-[6.5em] sm:h-[8em] rounded -z-50 bg-light p-2 sm:p-4 last:hidden sm:last:block' data-aos='slide-left'> 
+                      <img  src={item.src} alt='collection-photos' className=' collection w-[90%] sm:w-[50%] h-[60%] object-cover sm:mx-auto '/> 
                       <h2 className='text-center py-5 text-100 text-[0.8rem] font-medium'>{item.name}</h2>
                     </div>
           })}
