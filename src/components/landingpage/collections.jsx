@@ -25,8 +25,6 @@ export default function Collections() {
       useEffect(()=>{
         Aos.init({
           duration: 2000, 
-          offset:-400,
-        
           delay:0
 
       })

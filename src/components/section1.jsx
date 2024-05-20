@@ -13,9 +13,9 @@ export default function Section1() {
    
     useEffect(()=>{
         AOS.init({
-            duration: 2000, 
+            duration: 1000, 
             easing: 'ease-in',
-            delay:100,
+            delay:300,
             once: false, 
             mirror: false, 
         })
@@ -24,7 +24,7 @@ export default function Section1() {
             bg.classList.add('bgtest')
             setTimeout(()=>{
                 setShowPage(true)
-            },900)
+            },800)
         },2500)
     }, [])
 

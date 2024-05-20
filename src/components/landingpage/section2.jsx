@@ -76,7 +76,7 @@ export default function Section2() {
         })
         }
         </div>
-          <a  href="https://wa.me/2348161623434" className='mx-6 bg-whatsapp z-50 w-[3em] fixed bottom-[2.5em] h-[3em] rounded-full p-2'  target="_blank">
+          <a  href="https://wa.me/2348161623434" className=' mx-1 sm:mx-4 bg-whatsapp z-50 w-[3em] fixed bottom-[2.5em] h-[3em] rounded-full p-2'  target="_blank">
             <PiWhatsappLogo className='text-[2rem] z-50 text-white'/>
           </a> 
         <Boxes/>   

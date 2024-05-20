@@ -11,7 +11,7 @@ export default function Services() {
     useEffect(()=>{
         Aos.init({
           duration: 1500, 
-          offset:-500,
+       
           delay:0
 
       })
