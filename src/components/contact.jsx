@@ -9,22 +9,32 @@ export default function Contact() {
     <div className=' mt-10 bg-100 relative pt-20 ' id='contact'>
     <h2 className=' text-center text:text-[1.2rem] sm:text-[1.5rem] font-semibold text-light pt-24'>Contact Us to shop our collections</h2>
     <div className='p-3 w-[95%] sm:w-[60%] mx-auto text-light'>
-        <h4 className='hover-effect p-2 my-5 border border-light w-full sm:w-[50%] mx-auto text-[0.9rem] sm:text-[1.1rem] font-medium'>  
-          <span className='text-[0.9rem] sm:text-[1.1rem] inline-block '><MdOutlineMarkEmailUnread/></span> 
-          <a href='mailto:adebowalerebecca03@gmail.com' className=' sm:pl-5 inline-block ml-3 font-normal'>adebowalerebecca03@gmail.com</a>
-        </h4>
+
+        <a href='mailto:adebowalerebecca03@gmail.com' className=" hover-effect  mx-auto block w-full sm:w-[50%] my-5 p-2  border border-light" >  
+          <button className=" text-[0.9rem] w-full sm:text-[1.1rem] font-medium text-left ">
+          <span className='text-[0.9rem] sm:text-[1.1rem] inline-block  mr-7 sm:mr-10 '><MdOutlineMarkEmailUnread/></span> 
+            adebowalerebecca03@gmail.com
+            </button> 
+        </a>
+
+        <a href='https://www.instagram.com/_beckiescentandstyle?igsh=NTc4MTIwNjQ2YQ==' className="  border border-light hover-effect  mx-auto block w-full sm:w-[50%] my-5 p-2" target="_blank">  
+          <button className=" text-[0.9rem]  sm:text-[1.1rem] font-medium  w-full text-left ">
+          <span className='inline-block  mr-7 sm:mr-10 '><FaInstagram/></span> 
+            Instagram
+            </button> 
+        </a>
+
+        <a href='https://www.tiktok.com/@_beckiescentandstyle?_t=8mOgNrF2gI2&_r=1' className=" hover-effect border border-light  mx-auto block w-full sm:w-[50%] my-5 p-2" >  
+          <button className=" text-[0.9rem]  sm:text-[1.1rem] w-full font-medium text-left  ">
+          <span className=' inline-block  mr-7 sm:mr-10 '><PiTiktokLogo/></span> 
+            Tiktok
+            </button> 
+        </a>
         <h4 className='hover-effect p-2 my-5 border border-light w-full sm:w-[50%] mx-auto text-[0.9rem] sm:text-[1.1rem] font-medium'>
-          <span className=' text-[1.1rem] inline-block mr-7 sm:mr-10'><MdOutlineLocalPhone/></span> 08161623434
-        </h4>
-        <h4 className='hover-effect p-2 my-5 border border-light w-full sm:w-[50%] mx-auto text-[0.9rem] sm:text-[1.1rem] font-medium'>
-          <span className='  inline-block '><FaInstagram/></span>
-          <a href='https://www.instagram.com/_beckiescentandstyle?igsh=NTc4MTIwNjQ2YQ==' className='inline-block mx-10' target='_blank'>Instagram</a>
-        </h4>
-        <h4 className='hover-effect p-2 my-5 border border-light w-full sm:w-[50%] mx-auto text-[0.9rem] sm:text-[1.1rem] font-medium'>
-          <span className='inline-block '><PiTiktokLogo/></span>
-          <a href='https://www.tiktok.com/@_beckiescentandstyle?_t=8mOgNrF2gI2&_r=1' className='inline-block mx-10' target='_blank'>Tiktok</a>
-        </h4> 
+          <span className=' inline-block mr-7 sm:mr-10'><MdOutlineLocalPhone/></span> 08161623434
+        </h4>    
     </div>
+
     <div className="custom-shape-divider-top-1715862304">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" className="shape-fill"></path>
